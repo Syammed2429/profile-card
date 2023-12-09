@@ -1,5 +1,9 @@
-import Image from 'next/image';
+import { CardComponent } from '@/components/card/card-component';
 
 export default function Home() {
-  return <div>Test</div>;
+  return (
+    <div className=''>
+      <CardComponent />
+    </div>
+  );
 }
