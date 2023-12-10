@@ -20,36 +20,39 @@ export const CardComponent = () => {
   ];
 
   return (
-    <div className='flex justify-center items-center h-[100dvh] '>
-      <div className='h-[450px] w-[400px] bg-white shadow-2xl rounded-xl'>
+    <div className='text-base flex justify-center items-center h-[100dvh] font-Kumbh'>
+      <div className='text-xl h-[480px] w-[470px] bg-white shadow-2xl rounded-3xl'>
         <div>
           <Image
             src={cardHeaderImage}
-            alt={''}
-            className='rounded-t-xl w-full'
+            alt={'cardHeaderImage'}
+            className='rounded-t-3xl w-full'
           />
         </div>
-        <div className='flex justify-center'>
+        <div className='flex justify-center -mb-12'>
           <Image
             src={victorImage}
-            alt={''}
-            className='rounded-full relative bottom-12'
+            alt={'victorImage'}
+            className='rounded-full relative bottom-[4.2rem] border-[7px] border-white w-36'
           />
         </div>
-        <div className='flex flex-col justify-center items-center pb-8 '>
-          <div className=' gap-4  font-bold'>
-            Victor Crest <span className='font-light text-gray-400'>26</span>
+        <div className='flex flex-col justify-center items-center font-extrabold text-2xl'>
+          <div className=' gap-4   '>
+            Victor Crest <span className='font-light   text-gray-400'>26</span>
           </div>
-          <div className='font-light text-gray-400'>London</div>
+          <div className='font-light text-lg text-gray-400 tracking-wide mt-2'>
+            London
+          </div>
         </div>
 
-        <hr className='bg-black my-5' />
-        {/* <div className='bg-black h-[10px]'></div> */}
+        <hr className='bg-black my-6' />
         <div className='flex justify-around text-center'>
           {socialData?.map((social) => (
             <div key={social.followers} className=''>
-              <div className='font-bold'>{social.followers}</div>
-              <div className='font-light text-gray-400'>{social.name}</div>
+              <div className='font-extrabold text-xl  '>{social.followers}</div>
+              <div className='font-light text-sm text-gray-400  tracking-widest	'>
+                {social.name}
+              </div>
             </div>
           ))}
         </div>
