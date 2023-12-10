@@ -20,8 +20,8 @@ export const CardComponent = () => {
   ];
 
   return (
-    <div className='text-base flex justify-center items-center h-[100dvh] font-Kumbh'>
-      <div className='text-xl h-[480px] w-[470px] bg-white shadow-2xl rounded-3xl'>
+    <div className='px-2 text-base flex justify-center items-center h-[100dvh] font-Kumbh'>
+      <div className=' text-xl h-[380px] md:h-[480px] w-full md:w-[470px] bg-white shadow-2xl rounded-3xl'>
         <div>
           <Image
             src={cardHeaderImage}
@@ -33,7 +33,7 @@ export const CardComponent = () => {
           <Image
             src={victorImage}
             alt={'victorImage'}
-            className='rounded-full relative bottom-[4.2rem] border-[7px] border-white w-36'
+            className='rounded-full relative bottom-[4.2rem] border-[7px] border-white w-24 md:w-36'
           />
         </div>
         <div className='flex flex-col justify-center items-center font-extrabold text-2xl'>
