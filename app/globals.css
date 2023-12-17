@@ -25,6 +25,8 @@ body {
   background-size: 68%;
   background-repeat: no-repeat;
   background-color: hsl(185, 75%, 39%); */
+  
+  background-color: hsl(185, 75%, 39%);
   background-repeat: no-repeat, no-repeat;
 background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
