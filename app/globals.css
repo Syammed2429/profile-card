@@ -21,8 +21,10 @@
 body {
   background-image: url('./../public//assets/icons/bg-pattern-top.svg'),
     url('./../public//assets/icons/bg-pattern-bottom.svg');
-  background-position: left top, right bottom -13rem;
+/*   background-position: left top, right bottom -13rem;
   background-size: 68%;
   background-repeat: no-repeat;
-  background-color: hsl(185, 75%, 39%);
+  background-color: hsl(185, 75%, 39%); */
+  background-repeat: no-repeat, no-repeat;
+background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
