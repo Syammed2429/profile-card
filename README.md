@@ -1,6 +1,6 @@
 # Profile card component
 
-![Design preview for the Profile card component coding challenge](./public/assets/desktop-preview.jpg)
+![Design preview for the Profile card component coding challenge](/assets/desktop-preview.jpg)
 
 # Frontend Mentor - Profile card component solution
 
