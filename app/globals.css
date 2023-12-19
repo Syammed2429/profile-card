@@ -20,7 +20,7 @@
 
 body {
   background-image: url('/public/assets/icons/bg-pattern-top.svg'),
-    url('../../public/assets/icons/bg-pattern-bottom.svg');
+    url('/public/assets/icons/bg-pattern-bottom.svg');
 /*   background-position: left top, right bottom -13rem;
   background-size: 68%;
   background-repeat: no-repeat;
